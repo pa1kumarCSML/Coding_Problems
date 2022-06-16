@@ -32,7 +32,7 @@ int main(){
 	// test input..
 	int arr[]={1, 2, 3, 7, 5};
 
-	vector<int>v=subarraySum(arr,5,12);
+	vector<int>v=subarraySum(arr,5,12); // T(n)= O(n^2) Worst Case
     cout<<endl;
 	for(auto it: v)
 		cout<<it<<" ";
